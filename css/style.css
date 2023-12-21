@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+body {
+    font-family: "Unbounded", sans-serif;
+}
+
+.header {
+    background-image: url(../img-kittyes/фон.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: -10px -10px 0 -10px;
+    top: 0;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.549);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.menu-img {
+    overflow:hidden;
+    margin-left: 30px;
+}
+
+.menu-img img {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(92, 91, 91, 0.585);
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.menu-img img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.menu-ul {
+    margin-right: 30px;
+}
+
+.menu-ul ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-ul li {
+    text-align: center;
+    width: 220px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.632);
+    border-radius: 70px;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+     transition: all 1s ease-out;
+}
+
+.menu-ul li:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.menu-ul a {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.down {
+    margin-top: 40px;
+}
+
+.title {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1150px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.title h1, .title h2 {
+    text-shadow:
+    0 0 7px rgb(87, 60, 51),
+    0 0 10px rgb(87, 60, 51),
+    0 0 21px rgb(87, 60, 51),
+    0 0 42px rgb(87, 60, 51),
+    0 0 82px rgb(87, 60, 51),
+    0 0 92px rgb(87, 60, 51),
+    0 0 102px rgb(87, 60, 51),
+    0 0 151px rgb(87, 60, 51);
+}
+
+.title h2 {
+    margin-top: -25px;
+}
+
+.main {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chapter {
+    border: none;
+    border-top: 5px dotted rgb(0, 0, 0);
+    background-color: #ffffff00;
+    height: 1px;
+    width: 100%;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.aboutMe, .programs, .portfolio, .forms {
+    padding-top: 10px;
+}
+
+#aboutMe, #programs, #portfolio, #phone {
+    font-size: 45px;
+    color: white;
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px rgb(0, 0, 0);
+}
+
+.aboutMe h2, .programs h2, .portfolio h2, .forms h2 {
+    background-color: rgba(0, 0, 0, 0.573);
+    margin: -10px -10px 0 -10px;
+}
+
+.aboutMe {
+    background-image: url(../img-kittyes/фон.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 0;
+    height: 650px;
+}
+
+.aboutMe- {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height:310px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 150px #00000099;
+    color: rgb(0, 0, 0); 
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+     transition: all 1s ease-out;
+}
+
+.info:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 0px;
+    margin-left: 50px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.info-text p {
+    text-align: justify;
+}
+
+.teachers {
+    box-shadow: 2px 2px 150px #00000099;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 310px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+     transition: all 1s ease-out;
+}
+
+.teachers:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.teachers-info h3{
+    text-align: center;
+}
+
+.teachers-info h4 {
+    margin-top: -25px;
+    text-align: center;
+}
+
+.teachers-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teachers img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 0px;
+    /* box-shadow: 1px 1px 50px rgb(0, 0, 0); */
+    margin: 30px;
+}
+
+.programs {
+    background-image: url(../img-kittyes/фон.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 0;
+    height: 440px;
+}
+
+.programs- {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+}
+
+.programs-t {
+    margin: 30px;
+}
+
+.ps {
+    margin-top: 45px;
+    font-size: 15px;
+}
+
+.vs {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.vs h1 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 34px;
+    margin-top: 45px;
+}
+
+.element {
+    height: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 60px #00000099;
+    padding: 20px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.element:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.element a {
+    text-decoration: none;
+}
+
+.element p {
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow:     
+    0 0 7px rgb(0, 0, 0);
+}
+
+.vs progress {
+    background-color: #EFEFEF;
+    width: 250px;
+    height: 12px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(0, 0, 0);
+}
+
+.portfolio {
+    background-image: url(../img-kittyes/фон.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 0;
+}
+
+.container-html {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 450px;
+    display: flex;      
+}
+
+.container-html img {
+    box-shadow: 2px 2px 30px #000;
+    margin: 38px;
+    width: 700px;
+    height: 300px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.container-html img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.container-html a {
+    text-decoration: none;
+}
+
+.container-html h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    text-shadow:     
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px rgb(0, 0, 0);
+}
+
+.forms {
+    background-image: url(../img-kittyes/фон.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 0;
+    height: 500px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    margin-bottom: -45px;
+    width: 230px;
+    height: 230px;
+    mix-blend-mode: multiply;
+}
+
+.form-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click {
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    font-family: "Unbounded", sans-serif;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(69, 69, 69, 0.299);
+    background-color: white;
+    text-shadow:     
+    0 0 7px rgb(0, 0, 0);
+}
+
+.click:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(33, 35, 32);
+    color: white;
+}
+
+#window- {
+    position: absolute;
+    display: none;
+    background-color: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#window-:target {
+    display: block;
+}
+
+#window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: white;
+}
+
+#window-info {
+    display: flex;
+    font-size: 20px;
+}
+
+.close {
+    display: inline-block;
+    cursor:pointer;
+}
+
+.close-a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.close-a:hover {
+    color: white;
+    text-shadow: 
+    1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+.contact {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.form label {
+    font-size: 18px;
+}
+
+.form input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Unbounded", sans-serif;
+    padding: 10px;
+}
+
+.form textarea {
+    border-radius: 10px;
+    width: 270px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "Unbounded", sans-serif;
+}
+
+.bth {
+    text-decoration: none;
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Unbounded", sans-serif;
+    font-size: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.694);
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    padding: 10px;
+}
+
+.bth:hover{
+    cursor: pointer;
+    background-color: rgb(33, 35, 32);
+}
+
+.footer {
+    background-color: rgb(33, 35, 32);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid rgba(106, 105, 107, 0.437);
+}
